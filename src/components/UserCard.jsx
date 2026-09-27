@@ -7,6 +7,7 @@ const UserCard =() => {
             <img id="user-img" src="./assets/hero.png" alt="dev" />
             <p id="user-desc">Description of dev</p>
 
+<p>sadasdasdasd</p>
         </div>
     )
 }
