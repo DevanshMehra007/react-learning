@@ -4,14 +4,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import UserCard from './components/UserCard'
+import Counter from './components/Counter'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div className='container'>
-    <UserCard name="Rana" desc="Desc1"/>
+    {/* <UserCard name="Rana" desc="Desc1"/>
     <UserCard name="Maharana" desc="Desc2"/>
-    <UserCard name="Prithviraj" desc="Desc3"/>
+    <UserCard name="Prithviraj" desc="Desc3"/> */}
+    <Counter/>
    </div>
   )
 }
