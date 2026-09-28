@@ -9,9 +9,9 @@ function App() {
 
   return (
    <div className='container'>
-    <UserCard/>
-    <UserCard/>
-    <UserCard/>
+    <UserCard name="Rana" desc="Desc1"/>
+    <UserCard name="Maharana" desc="Desc2"/>
+    <UserCard name="Prithviraj" desc="Desc3"/>
    </div>
   )
 }
