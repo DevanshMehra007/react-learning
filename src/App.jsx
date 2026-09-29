@@ -14,7 +14,13 @@ function App() {
     {/* <UserCard name="Rana" desc="Desc1"/>
     <UserCard name="Maharana" desc="Desc2"/>
     <UserCard name="Prithviraj" desc="Desc3"/> */}
-    <Counter/>
+    {/* <Counter/> */}
+
+      <main className="min-h-screen bg-slate-100 flex items-center justify-center">
+      <h1 className="text-3xl font-bold text-blue-600">
+        React ke saath Tailwind chal rahi hai!
+      </h1>
+    </main>
    </div>
   )
 }
