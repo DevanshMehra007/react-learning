@@ -28,6 +28,17 @@ function App() {
          height="30px"
          />
       </a>
+      <ul>
+        <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group'>
+
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
      </nav>
    </div>
   )
