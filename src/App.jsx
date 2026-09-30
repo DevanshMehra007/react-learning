@@ -5,22 +5,30 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import UserCard from './components/UserCard'
 import Counter from './components/Counter'
+import logo from './assets/Razorpay-logo.webp'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div className='container'>
+   <div>
     {/* <UserCard name="Rana" desc="Desc1"/>
     <UserCard name="Maharana" desc="Desc2"/>
     <UserCard name="Prithviraj" desc="Desc3"/> */}
     {/* <Counter/> */}
 
-      <main className="min-h-screen bg-slate-100 flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        React ke saath Tailwind chal rahi hai!
-      </h1>
-    </main>
+     <nav className='bg-deepBlue'>
+      <div className='relative w-[1080px] mx-auto flex items-center justify-between '></div>
+      
+      {/* ----------- logo ------------- */}
+      <a href="/" className='cursor-pointer py-7 pr-7'>
+      <img className='py-3'
+         src={logo} alt="logo"
+         width="125px" 
+         height="30px"
+         />
+      </a>
+     </nav>
    </div>
   )
 }
