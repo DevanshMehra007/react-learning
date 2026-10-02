@@ -6,6 +6,7 @@ import './App.css'
 import UserCard from './components/UserCard'
 import Counter from './components/Counter'
 import logo from './assets/Razorpay-logo.webp'
+import flag from './assets/Indian-flag.webp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -66,8 +67,20 @@ function App() {
               <div className='absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all 
             duration-200'></div>
         </li>
-        
       </ul>
+
+      <div className='flex space-x-6'>
+        <img src={flag} 
+        width="60px"
+        />
+        
+         <button className='py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold' >Log in</button>
+         <button className='py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500'>Sign Up</button>
+      
+      </div>
+      
+
+
       </div>
      </nav>
    </div>
