@@ -12,78 +12,102 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div>
-    {/* <UserCard name="Rana" desc="Desc1"/>
+    <div>
+      {/* <UserCard name="Rana" desc="Desc1"/>
     <UserCard name="Maharana" desc="Desc2"/>
     <UserCard name="Prithviraj" desc="Desc3"/> */}
-    {/* <Counter/> */}
+      {/* <Counter/> */}
 
-     <nav className='bg-deepBlue'>
-      <div className='relative w-[1080px] mx-auto flex items-center justify-between '>
-      {/* ----------- logo ------------- */}
-      <a href="/" className='cursor-pointer py-7 pr-7'>
-      <img className='py-3'
-         src={logo} alt="logo"
-         width="125px" 
-         height="30px"
-         />
-      </a>
-      <ul className='flex space-x-6'>
-        <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+      <nav className='bg-deepBlue'>
+        <div className='relative w-[1080px] mx-auto flex items-center justify-between '>
+          {/* ----------- logo ------------- */}
+          <a href="/" className='cursor-pointer py-7 pr-7'>
+            <img className='py-3'
+              src={logo} alt="logo"
+              width="125px"
+              height="30px"
+            />
+          </a>
+          <ul className='flex space-x-6'>
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Payments</a>
               <div className='absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all 
             duration-200'></div>
-        </li>
-         <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+            </li>
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Banking</a>
               <div className='absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all 
             duration-200'></div>
-        </li>
-       
-        <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+            </li>
+
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Corporate Card</a>
-             
-        </li>
 
-         <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+            </li>
+
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Payroll</a>
-              
-        </li>
 
-         <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+            </li>
+
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Resources</a>
               <div className='absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all 
             duration-200'></div>
-        </li>
+            </li>
 
-         <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
+            <li className='text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all 
             duration-200 relative group'>
               <a href="#">Pricing</a>
               <div className='absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all 
             duration-200'></div>
-        </li>
-      </ul>
+            </li>
+          </ul>
 
-      <div className='flex space-x-6'>
-        <img src={flag} 
-        width="60px"
-        />
-        
-         <button className='py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold' >Log in</button>
-         <button className='py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500'>Sign Up</button>
-      
-      </div>
-      
+          <div className='flex space-x-6'>
+            <img src={flag}
+              width="60px"
+            />
+
+            <button className='py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold' >Log in</button>
+            <button className='py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500'>Sign Up</button>
+
+          </div>
+        </div>
+      </nav>
 
 
-      </div>
-     </nav>
-   </div>
+
+
+      {/*------------------- Hero Section ---------------------------------*/}
+
+      <section className='relative bg-deepBlue'>
+        <div>
+          {/* left part */}
+          <div>
+            <h1>Power your finance, grow your business</h1>
+            <div className='w-6 h-1 bg-greenlight'></div>
+            <p></p>
+            <button></button>
+          </div>
+          {/* right part */}
+          <img src="" alt="" />
+
+
+        </div>
+
+        {/* shape part */}
+        <div>
+          <img src="" alt="" />
+        </div>
+
+      </section>
+    </div>
   )
 }
 
