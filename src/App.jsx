@@ -7,6 +7,7 @@ import UserCard from './components/UserCard'
 import Counter from './components/Counter'
 import logo from './assets/Razorpay-logo.webp'
 import flag from './assets/Indian-flag.webp'
+import Heroimg from './assets/Hero-section-img.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -87,16 +88,22 @@ function App() {
       {/*------------------- Hero Section ---------------------------------*/}
 
       <section className='relative bg-deepBlue'>
-        <div>
+
+        <div className='w-10/12 flex flex-row justify-between items-center mx-auto'>
           {/* left part */}
-          <div>
-            <h1>Power your finance, grow your business</h1>
+          <div className='flex flex-col gap-4'>
+            <h1 className='font-mullish text-[40px] leading-[1.2] text-white' >Power your finance, grow your business</h1>
             <div className='w-6 h-1 bg-greenlight'></div>
-            <p></p>
-            <button></button>
+            <p className='font-mullish text-[18px] text-white opacity-70' >
+              Accept payments from customers. Automate payouts to vendors & 
+              employees. Never run out of working capital.
+            </p>
+            <button>Sign Up Now</button>
           </div>
+
+
           {/* right part */}
-          <img src="" alt="" />
+          <img src={Heroimg} />
 
 
         </div>
