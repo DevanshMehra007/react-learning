@@ -125,29 +125,45 @@ function App() {
 
         <div>
           {/* ------------ heading---------------- */}
-          <h2></h2>
+          <h2>Accept Payments with Razorpay Payment Suite</h2>
           <div></div>
 
           {/* content box */}
           <div>
             {/* left section */}
             <div>
-              <h3></h3>
+              <h3>
+                Supercharge your buisness with the all-powerfull 
+                <span className='text-lightBlue'>Payment Gateway</span>
+              </h3>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                  <span>100+ Payment Methods</span>
+                </li>
+                <li>
+                  <span>Industry Leading Success</span>
+                </li>
+                <li>
+                  <span>Superior Cheackout Experience</span>
+                </li>
+                <li>
+                  <span>Easy to Intergrate</span>
+                </li>
+                <li>
+                  <span>Instant Settlements from day 1</span>
+                </li>
+                <li>
+                  <span>In-depth Reporting and Insights</span>
+                </li>
               </ul>
 
               {/* for button and hyperlink */}
               <div>
-                <button></button>
+                <button>Sign Up Now</button>
                 {/* hyper link  */}
                 <div>
-                  <a href=""><i></i></a>
+                  <a href="">Know More<i>
+                    </i></a>
                 </div>
               </div>
               <img src="" alt="" />
