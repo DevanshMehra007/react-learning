@@ -87,13 +87,13 @@ function App() {
 
       {/*------------------- Hero Section ---------------------------------*/}
 
-      <section className='relative bg-deepBlue'>
+      <section className='relative bg-deepBlue h-[1080px] py-[100px]'>
 
         <div className='w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto'>
 
 
           {/* left part */}
-          <div >
+          <div className='space-y-8'>
             <h1 className='font-mullish text-[40px] leading-[1.2] text-white' >Power your finance, grow your business</h1>
             <div className='w-6 h-1 bg-greenlight'></div>
             <p className='font-mullish text-[18px] leading-7 text-white opacity-70' >
@@ -106,7 +106,7 @@ function App() {
 
 
           {/* right part */}
-          <img src={Heroimg}  className='max-w-[680px]'/>
+          <img src={Heroimg}  className=' w-full max-w-[680px]'/>
 
 
         </div>
