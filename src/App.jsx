@@ -97,7 +97,7 @@ function App() {
             <h1 className='font-mullish text-[40px] leading-[1.2] text-white' >Power your finance, grow your business</h1>
             <div className='w-6 h-1 bg-greenlight'></div>
             <p className='font-mullish text-[18px] leading-7 text-white opacity-70' >
-              Accept payments from customers. Automate payouts to vendors & 
+              Accept payments from customers. Automate payouts to vendors &
               employees. Never run out of working capital.
             </p>
             <button className=' py-[14px] px-[18px] bg-lightBlue text-white rounded-md font-mullish font-bold
@@ -106,7 +106,7 @@ function App() {
 
 
           {/* right part */}
-          <img src={Heroimg}  className=' w-full max-w-[680px]'/>
+          <img src={Heroimg} className=' w-full max-w-[680px]' />
 
 
         </div>
@@ -117,6 +117,51 @@ function App() {
         </div>
 
       </section>
+
+      {/* ------------------- Feature section -------------------------- */}
+      <section>
+        <img src="" alt="" />
+        <img src="" alt="" />
+
+        <div>
+          {/* ------------ heading---------------- */}
+          <h2></h2>
+          <div></div>
+
+          {/* content box */}
+          <div>
+            {/* left section */}
+            <div>
+              <h3></h3>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+
+              {/* for button and hyperlink */}
+              <div>
+                <button></button>
+                {/* hyper link  */}
+                <div>
+                  <a href=""><i></i></a>
+                </div>
+              </div>
+              <img src="" alt="" />
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
     </div>
   )
 }
