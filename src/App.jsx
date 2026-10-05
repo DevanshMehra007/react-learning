@@ -8,7 +8,7 @@ import Counter from './components/Counter'
 import logo from './assets/Razorpay-logo.webp'
 import flag from './assets/Indian-flag.webp'
 import Heroimg from './assets/Hero-section-img.jpg'
-
+import Herobend from './assets/hero-bend.svg'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -87,7 +87,7 @@ function App() {
 
       {/*------------------- Hero Section ---------------------------------*/}
 
-      <section className='relative bg-deepBlue h-[1080px] py-[100px]'>
+      <section className='relative bg-deepBlue  py-[100px]'>
 
         <div className='w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto'>
 
@@ -111,12 +111,15 @@ function App() {
 
         </div>
 
-        {/* shape part */}
-        <div>
-          <img src="" alt="" />
-        </div>
 
       </section>
+
+       {/* shape part */}
+        <div className='w-[100%] absolute left-0 right-0 overflow-hidden'>
+          <img src={Herobend} alt=""
+            className='w-full object-fill scale-x-100' />
+        </div>
+
 
       {/* ------------------- Feature section -------------------------- */}
       <section>
@@ -133,7 +136,7 @@ function App() {
             {/* left section */}
             <div>
               <h3>
-                Supercharge your buisness with the all-powerfull 
+                Supercharge your buisness with the all-powerfull
                 <span className='text-lightBlue'>Payment Gateway</span>
               </h3>
               <ul>
@@ -163,10 +166,10 @@ function App() {
                 {/* hyper link  */}
                 <div>
                   <a href="">Know More<i>
-                    </i></a>
+                  </i></a>
                 </div>
               </div>
-              <img src="" alt="" />
+              <img alt="" />
 
 
             </div>
