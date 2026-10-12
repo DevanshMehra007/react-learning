@@ -194,15 +194,8 @@ function App() {
   <p></p>
   <p></p></li>
   <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</div>
+  </div>
+ 
     </div>
   )
 }
