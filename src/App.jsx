@@ -191,11 +191,7 @@ function App() {
  <li></li>
  <li></li>
  <li></li>
- <li></li></ul></div>
- <div></div>
- <div></div>
- <div></div>
- <div></div>
+ <li></li>
  <div></div>
  <div></div>
  <div></div>
