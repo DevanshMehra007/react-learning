@@ -182,16 +182,7 @@ function App() {
       </section>
 
  
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+
 
  
     </div>
