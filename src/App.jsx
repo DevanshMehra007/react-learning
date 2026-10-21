@@ -184,16 +184,6 @@ function App() {
  
 
 
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
-<dev></dev>
 
  
     </div>
