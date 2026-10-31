@@ -182,14 +182,7 @@ function App() {
       </section>
 
  
- <div>
-  <p>
-    <ul>
-      
-      <li>sdasda</li>
-    </ul>
-  </p>
- </div>
+ 
     </div>
   )
 }
